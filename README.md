@@ -1,6 +1,6 @@
 # Node.js Project Collection
 
-A collection of Node.js projects designed to help you learn backend programming through progressive challenges. This repository includes various projects, starting from simple APIs to more complex applications.
+A collection of Node.js projects designed to help myself (and you) learn backend node backend programming through progressive challenges. This repository includes various projects, starting from simple APIs to more complex applications.
 
 ## Table of Contents
 - [Projects](#projects)
@@ -22,7 +22,7 @@ A collection of Node.js projects designed to help you learn backend programming 
    - **Technologies**: Node.js, JWT, bcrypt, PostgreSQL
    - **Status**: Completed
 
-3. **URL Shortener** *(Upcoming)*
+3. **URL Shortener** *(In Progress)*
    - An API to shorten and redirect URLs.
 
 4. **Blog API with Comments** *(Upcoming)*
