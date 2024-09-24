@@ -59,5 +59,5 @@ A collection of Node.js projects designed to help you learn backend programming 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/node-project-collection.git
+   git clone https://github.com/tsmurer/node-project-collection.git
    cd node-project-collection
