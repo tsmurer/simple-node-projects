@@ -1,14 +1,11 @@
 # Node.js Project Collection
 
-A collection of Node.js projects designed to help myself (and you) learn backend node backend programming through progressive challenges. This repository includes various projects, starting from simple APIs to more complex applications.
+A collection of Node.js projects designed to help myself (and you) learn backend node backend programming through progressive challenges and maybe use its features as future reference. This repository includes various projects, starting from simple APIs to more complex applications.
 
 ## Table of Contents
 - [Projects](#projects)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Projects
 
