@@ -1,22 +1,28 @@
-version: '3.8'
-
 services:
   web:
     build: .
-    command: npm start
+    command: npm run start:dev
     ports:
-      - "3000:3000"
+      - "${APP_PORT}:3000"
     volumes:
       - ./:/app
     depends_on:
-      - db
+      - mongo
 
-  db:
+  mongo:
     image: mongo:latest
+    container_name: my_mongo_container
+    restart: always
+    env_file:
+      - .env
     ports:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
+    environment:
+      MONGO_INITDB_USERNAME: tsmurer
+      MONGO_INITDB_PASSWORD: 1234
+      MONGO_INITDB_DATABASE: urlshortenerdb
 
 volumes:
   mongo-data:

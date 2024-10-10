@@ -1,3 +1,4 @@
 # Ignore all node_modules and dist directories in all subfolders
 **/node_modules/
 **/dist/
+**/.env/
