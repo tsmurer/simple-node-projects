@@ -3,12 +3,11 @@ import Url from '../models/url';
 import shortId from 'shortid';
 
 export const createUrl = async (req: Request, res: Response) => {
-    const { originalUrl } = req.body;
-
-
+    const originalUrl = req.body.originalUrl; 
     if (!originalUrl) {
-        return res.status(400).json({ error: 'Original URL is required' });
+      return res.status(400).json({ error: 'Original URL is required' });
     }
+  
 
     const shortUrl = shortId.generate();
 
